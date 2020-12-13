@@ -1,0 +1,76 @@
+body{
+	background-image: url("../images/nature024_uhd.jpg");
+	background-size: 1600px 1000px;
+}
+.container{
+	overflow: auto;
+}
+#tablet{
+	background-color: lightgray;
+	border: 2px solid black;
+    border-radius: 25px;
+    width: 1100px;
+}
+#fondo{
+	background-image: url("../images/skateboard-wallpaper.jpg");
+	background-position: center;
+	background-size: cover;
+	border: 2px solid black;
+    width: 1000px;
+	height: 500px;
+	margin-left: 3px;
+	margin-top: 30px;
+	margin-bottom: 45px;
+	/*filter:blur(6px);*/
+}
+.apps{
+	width: 50px;
+	height: 50px;
+}
+#nav{
+	background-color: rgb(125,121,120);
+}
+#titul{
+	color: white;
+	font-size: large;
+}
+#anuncios{
+	background-color: black;
+	color: white;
+}
+#publicidad{
+	width: 170px;
+	height: 90px;
+	border-radius: 45px;
+}
+#cerrar{
+	width: 25px;
+	height: 25px;
+}
+.contenido{
+	margin: 20px;
+	background-color: black;
+	display: none;
+}
+#home{
+	width: 50px;
+	height: 50px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.vide{
+	opacity: 0.5;
+}
+.vide:hover{
+	 opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+.vide:active{
+	 opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+.play{
+	width: 50px;
+	height: 50px;	
+}

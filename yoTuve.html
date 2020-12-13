@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>yoTuve</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/estiloYoTuve.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+				<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" id="tablet">
+						<section class="container wall col-lg-12 col-md-12 col-sm-12 col-xs-12" id="fondo">
+							<div class="row" id="nav">
+								<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5" id="titul">
+								<img src="iconos/yoTuve.png" class="apps">
+								YoTuve
+								Home
+								</div>
+								<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+									<input type="search" name="buscar" placeholder="Buscar">
+									<span class="glyphicon glyphicon-search"></span>
+								</div>
+							</div>
+							<div class="row" id="anuncios">
+								<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+									¡Los mejores videos!
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+									<img src="images/publicidad.jpg" id="publicidad">
+									<img src="iconos/cerrar.png" id="cerrar" onclick="ocultar()">
+								</div>
+							</div>
+							<!--Inicio seccion donde se desplegan los videos-->
+							<div class="row contenido" id="cont1">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rep">
+									<video src="videos/5.webm" type="video/webm" class="vid" onclick="play('v1')"></video>
+									<img src="iconos/play.png" class="play" id="v1">
+								</div>
+							</div>
+							<div class="row contenido" id="cont2">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rep">
+									<video src="videos/JakeRapea.mp4" type="video/mp4" class="vid" controls width="320"></video>
+									<img src="iconos/play.png" class="play" id="v2">
+								</div>
+							</div>
+							<div class="row contenido" id="cont3">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rep">
+									<video src="videos/PonteRickoso.mp4" type="video/mp4" class="vid" controls width="320"></video>
+									<img src="iconos/play.png" class="play" id="v3">
+								</div>
+							</div>
+							<div class="row contenido" id="cont4">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rep">
+									<video src="videos/MalcolmReese.mp4" type="video/mp4" class="vid" controls width="320"></video>
+									<img src="iconos/play.png" class="play" id="v4">
+								</div>
+							</div>
+							<div class="row contenido" id="cont5">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rep">
+									<video src="videos/papaletaCantando.mp4" type="video/mp4" class="vid" controls width="320"></video>
+									<img src="iconos/play.png" class="play" id="v5">
+								</div>
+							</div>
+							<!--Fin seccion donde se desplegan los videos-->
+							<div class="row">
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+									<img src="images/arnold.jpg" width="100%" height="70%" class="vide" onclick="tog('cont1')">
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+									<img src="images/jakeDog.jpg" width="100%" height="70%" class="vide" onclick="tog('cont2')">
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+									<img src="images/Rickoso.jpg" width="100%" height="70%" class="vide" onclick="tog('cont3')">
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+									<img src="images/malcomReese.jpg" width="100%" height="70%" class="vide" onclick="tog('cont4')">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+									<img src="images/papaletKaraoke.png" width="100%" height="70%" class="vide" onclick="tog('cont5')">
+								</div>
+							</div>
+						</section>
+						<a href="Principal.html"><img src="images/circulo.png" id="home"></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+			</div>
+		</div>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="./js/setYoTuve.js"></script>
+		<!--<script type="text/javascript" src="js/logVideos.js"></script>-->
+	</body>
+</html>
